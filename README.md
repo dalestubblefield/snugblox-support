@@ -22,7 +22,7 @@ Drag and drop colorful block pieces onto an 8×8 grid. Fill a row or column to c
 ## Tech Stack
 
 - Swift & SwiftUI
-- iOS 26+
+- iOS 17+
 - No data collection
 
 ---
