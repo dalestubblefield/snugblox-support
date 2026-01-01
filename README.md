@@ -6,8 +6,8 @@ A relaxing block puzzle game designed to feel like a warm blanket for your brain
 
 ## Links
 
-- 🌐 [Website](https://dalestubblefield.github.io/snugblox-site/)
-- 🔒 [Privacy Policy](https://dalestubblefield.github.io/snugblox-site/privacy.html)
+* 🌐 [Website](https://dalestubblefield.github.io/snugblox-support/)
+* 🔒 [Privacy Policy](https://dalestubblefield.github.io/snugblox-support/privacy.html)
 - 📧 [Contact](mailto:dalestubblefield@me.com)
 
 ## About
