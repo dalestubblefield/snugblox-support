@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnugBlox - Cozy Block Puzzle</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #F7E9DE;
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #8E5FA1;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        .tagline {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        h2 {
+            font-size: 1.3rem;
+            color: #8E5FA1;
+            margin-bottom: 16px;
+        }
+        p {
+            margin-bottom: 12px;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 12px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #8E5FA1;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .button {
+            display: inline-block;
+            background: #8E5FA1;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            margin-top: 8px;
+        }
+        .button:hover {
+            background: #7a5189;
+            text-decoration: none;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #888;
+            font-size: 0.9rem;
+        }
+        .footer a {
+            color: #888;
+        }
+        .colors {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 32px;
+        }
+        .color-dot {
+            width: 24px;
+            height: 24px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧩 SnugBlox</h1>
+        <p class="tagline">Cozy Block Puzzle</p>
+        
+        <div class="colors">
+            <div class="color-dot" style="background: #D9AD8B;"></div>
+            <div class="color-dot" style="background: #F0899C;"></div>
+            <div class="color-dot" style="background: #8E5FA1;"></div>
+            <div class="color-dot" style="background: #B1F13B;"></div>
+            <div class="color-dot" style="background: #C2737E;"></div>
+        </div>
+
+        <div class="card">
+            <h2>About the Game</h2>
+            <p>SnugBlox is a relaxing block puzzle game designed to feel like a warm blanket for your brain.</p>
+            <p>Drag and drop colorful block pieces onto the grid. Fill a row or column to clear it and score points. Simple to learn, satisfying to master.</p>
+        </div>
+
+        <div class="card">
+            <h2>How to Play</h2>
+            <ul>
+                <li>Drag block pieces from the tray onto the 8×8 grid</li>
+                <li>Fill any complete row or column to clear it</li>
+                <li>Place all three pieces to get a new set</li>
+                <li>Keep going until no pieces fit — how high can you score?</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Support</h2>
+            <p>Having issues or have feedback? We'd love to hear from you!</p>
+            <a href="mailto:dalestubblefield@me.com?subject=SnugBlox%20Support" class="button">Contact Support</a>
+        </div>
+
+        <div class="footer">
+            <p><a href="privacy.html">Privacy Policy</a></p>
+            <p style="margin-top: 12px;">© 2026 Dale Stubblefield</p>
+        </div>
+    </div>
+</body>
+</html>
