@@ -12,8 +12,8 @@
         }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            background-color: #F7E9DE;
-            color: #333;
+            background-color: #E8A0AA;
+            color: #3D3040;
             line-height: 1.6;
             min-height: 100vh;
             display: flex;
@@ -27,26 +27,27 @@
         }
         h1 {
             font-size: 2.5rem;
-            color: #8E5FA1;
+            color: #5A4570;
             margin-bottom: 8px;
             text-align: center;
         }
         .tagline {
             text-align: center;
-            color: #666;
+            color: #3D3040;
             margin-bottom: 40px;
             font-size: 1.1rem;
+            opacity: 0.8;
         }
         .card {
-            background: white;
+            background: #FFF8E7;
             border-radius: 16px;
             padding: 32px;
             margin-bottom: 24px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 12px rgba(167, 61, 146, 0.15);
         }
         h2 {
             font-size: 1.3rem;
-            color: #8E5FA1;
+            color: #5A4570;
             margin-bottom: 16px;
         }
         p {
@@ -60,33 +61,44 @@
             margin-bottom: 8px;
         }
         a {
-            color: #8E5FA1;
+            color: #5A4570;
             text-decoration: none;
+            font-weight: 500;
         }
         a:hover {
             text-decoration: underline;
         }
         .button {
             display: inline-block;
-            background: #8E5FA1;
-            color: white;
+            background: #B8E8C0;
+            color: #3D3040;
             padding: 12px 24px;
-            border-radius: 8px;
+            border-radius: 24px;
             font-weight: 600;
             margin-top: 8px;
+            box-shadow: 0 3px 6px rgba(167, 61, 146, 0.3);
+            transition: transform 0.1s ease;
         }
         .button:hover {
-            background: #7a5189;
+            background: #A0D8A8;
             text-decoration: none;
+            transform: scale(0.98);
+        }
+        .button-secondary {
+            background: #D4C4E8;
+        }
+        .button-secondary:hover {
+            background: #C4B4D8;
         }
         .footer {
             margin-top: 40px;
             text-align: center;
-            color: #888;
+            color: #3D3040;
             font-size: 0.9rem;
+            opacity: 0.7;
         }
         .footer a {
-            color: #888;
+            color: #3D3040;
         }
         .colors {
             display: flex;
@@ -98,20 +110,23 @@
             width: 24px;
             height: 24px;
             border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🧩 SnugBlox</h1>
+        <h1>SnugBlox</h1>
         <p class="tagline">Cozy Block Puzzle</p>
-        
+
         <div class="colors">
-            <div class="color-dot" style="background: #D9AD8B;"></div>
-            <div class="color-dot" style="background: #F0899C;"></div>
-            <div class="color-dot" style="background: #8E5FA1;"></div>
-            <div class="color-dot" style="background: #B1F13B;"></div>
-            <div class="color-dot" style="background: #C2737E;"></div>
+            <div class="color-dot" style="background: #F0D860;"></div>
+            <div class="color-dot" style="background: #E3995C;"></div>
+            <div class="color-dot" style="background: #86E38A;"></div>
+            <div class="color-dot" style="background: #7AE4C0;"></div>
+            <div class="color-dot" style="background: #8AB9E7;"></div>
+            <div class="color-dot" style="background: #DBABF5;"></div>
+            <div class="color-dot" style="background: #CF727F;"></div>
         </div>
 
         <div class="card">
@@ -123,10 +138,12 @@
         <div class="card">
             <h2>How to Play</h2>
             <ul>
-                <li>Drag block pieces from the tray onto the 8×8 grid</li>
+                <li>Drag block pieces from the tray onto the 8x8 grid</li>
                 <li>Fill any complete row or column to clear it</li>
                 <li>Place all three pieces to get a new set</li>
-                <li>Keep going until no pieces fit — how high can you score?</li>
+                <li>Clear 3+ lines at once to earn a shuffle</li>
+                <li>Use shuffles when stuck to get new pieces</li>
+                <li>Keep going until no pieces fit!</li>
             </ul>
         </div>
 
@@ -138,7 +155,7 @@
 
         <div class="footer">
             <p><a href="privacy.html">Privacy Policy</a></p>
-            <p style="margin-top: 12px;">© 2026 Dale Stubblefield</p>
+            <p style="margin-top: 12px;">2026 Dale Stubblefield</p>
         </div>
     </div>
 </body>

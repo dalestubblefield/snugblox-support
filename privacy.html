@@ -12,8 +12,8 @@
         }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            background-color: #F7E9DE;
-            color: #333;
+            background-color: #E8A0AA;
+            color: #3D3040;
             line-height: 1.6;
             min-height: 100vh;
             display: flex;
@@ -27,7 +27,7 @@
         }
         h1 {
             font-size: 2rem;
-            color: #8E5FA1;
+            color: #5A4570;
             margin-bottom: 8px;
             text-align: center;
         }
@@ -35,16 +35,20 @@
             text-align: center;
             margin-bottom: 32px;
         }
+        .back-link a {
+            color: #5A4570;
+            font-weight: 500;
+        }
         .card {
-            background: white;
+            background: #FFF8E7;
             border-radius: 16px;
             padding: 32px;
             margin-bottom: 24px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 12px rgba(167, 61, 146, 0.15);
         }
         h2 {
             font-size: 1.2rem;
-            color: #8E5FA1;
+            color: #5A4570;
             margin-bottom: 12px;
             margin-top: 20px;
         }
@@ -62,36 +66,42 @@
             margin-bottom: 6px;
         }
         a {
-            color: #8E5FA1;
+            color: #5A4570;
             text-decoration: none;
+            font-weight: 500;
         }
         a:hover {
             text-decoration: underline;
         }
         .updated {
-            color: #888;
+            color: #3D3040;
             font-size: 0.9rem;
             text-align: center;
             margin-bottom: 24px;
+            opacity: 0.7;
         }
         .footer {
             margin-top: 40px;
             text-align: center;
-            color: #888;
+            color: #3D3040;
             font-size: 0.9rem;
+            opacity: 0.7;
+        }
+        .footer a {
+            color: #3D3040;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="back-link"><a href="index.html">← Back to SnugBlox</a></p>
-        <p class="updated">Last updated: January 1, 2026</p>
+        <p class="back-link"><a href="index.html">Back to SnugBlox</a></p>
+        <p class="updated">Last updated: January 7, 2026</p>
 
         <div class="card">
             <h2>Overview</h2>
             <p>SnugBlox ("we", "our", or "the app") is committed to protecting your privacy. This policy explains how we handle information when you use our app.</p>
-            <p><strong>The short version:</strong> We don't collect any data. Your privacy is fully protected.</p>
+            <p><strong>The short version:</strong> We don't collect any personal data. Your privacy is fully protected.</p>
 
             <h2>Data Collection</h2>
             <p>SnugBlox does not collect, store, transmit, or share any personal information or user data. Specifically:</p>
@@ -100,19 +110,28 @@
                 <li>No personal information collected</li>
                 <li>No analytics or tracking</li>
                 <li>No advertising or ad networks</li>
-                <li>No network requests or internet connection required</li>
             </ul>
 
             <h2>Local Storage</h2>
-            <p>The app stores only your high score locally on your device using iOS's built-in storage. This data:</p>
+            <p>The app stores your game progress locally on your device using iOS's built-in storage. This includes:</p>
             <ul>
-                <li>Never leaves your device</li>
-                <li>Is not accessible to us or any third party</li>
-                <li>Is deleted if you uninstall the app</li>
+                <li>Your high score</li>
+                <li>Saved game state (to continue where you left off)</li>
+                <li>Your settings preferences</li>
+            </ul>
+            <p>This data never leaves your device, is not accessible to us or any third party, and is deleted if you uninstall the app.</p>
+
+            <h2>Game Center</h2>
+            <p>SnugBlox optionally integrates with Apple Game Center for leaderboards. If you choose to use Game Center:</p>
+            <ul>
+                <li>Your Game Center nickname and scores are managed by Apple</li>
+                <li>We do not have access to your Apple ID or personal information</li>
+                <li>Game Center usage is governed by Apple's Privacy Policy</li>
+                <li>You can disable Game Center in your device settings</li>
             </ul>
 
             <h2>Third-Party Services</h2>
-            <p>SnugBlox does not integrate with any third-party services, SDKs, or analytics platforms. We do not share data with third parties because we do not collect any data.</p>
+            <p>Other than the optional Game Center integration, SnugBlox does not integrate with any third-party services, SDKs, or analytics platforms.</p>
 
             <h2>Children's Privacy</h2>
             <p>SnugBlox does not collect information from anyone, including children under 13. The app is safe for users of all ages.</p>
@@ -126,7 +145,7 @@
         </div>
 
         <div class="footer">
-            <p><a href="index.html">SnugBlox</a> · © 2026 Dale Stubblefield</p>
+            <p><a href="index.html">SnugBlox</a> · 2026 Dale Stubblefield</p>
         </div>
     </div>
 </body>
